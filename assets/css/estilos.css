@@ -2,6 +2,16 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.candela {
+  height: 50px;
+  padding-bottom: 5px;
+}
+.navbar {
+  height: 70px;
+}
+.opciones {
+  font-size: 15px;
+}
 /* Hero Section */
 
 #Hero-Section {
@@ -11,13 +21,18 @@ body {
   background-position: left;
 }
 
-/* Mis trabajos */
-
-#Mis-trabajos .image-top {
+/* Mis proyectos */
+.proyectos {
+  background-color: #F1E64E;
+}
+.proyectos .image-top {
   height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.titulo {
+  color: black;
 }
 
 /* Contacto */
