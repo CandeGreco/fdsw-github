@@ -15,14 +15,19 @@ body {
 /* Hero Section */
 
 #Hero-Section {
-  background-image: url("../img/fondo-cabecera.jpg");
+  background-image: url("../img/fondo-cabecera.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
 }
+.contenedor {
+  background-color:#373a3c;
+  opacity: 70%;
+  color: white;
+}
 
 /* Mis proyectos */
-.proyectos {
+#proyectos {
   background-color: #F1E64E;
 }
 .image-top {
