@@ -25,15 +25,56 @@ body {
 .proyectos {
   background-color: #F1E64E;
 }
-.proyectos .image-top {
-  height: 250px;
+.image-top {
+  width: 100%;
+  display: block;
+  height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
-.titulo {
-  color: black;
+.imagen {
+  height: 190px;
 }
+.tarjetas {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.card {
+  background-color: #fff;
+  margin-bottom: 10px;
+  height: 100%;
+}
+.card-body {
+  padding: 20px 15px;
+}
+@media(reglas-tarjetas){
+  .tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  .card {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .portada {
+    height: 200px;
+    overflow: hidden;
+  }
+  .card-body{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-text {
+    flex-grow: 1;
+
+  }
+}
+
 
 /* Contacto */
 
